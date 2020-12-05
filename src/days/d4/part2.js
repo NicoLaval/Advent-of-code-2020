@@ -1,5 +1,5 @@
 import { input } from "./input";
-import { getPasseports } from "utils";
+import { getPasseports } from "./common";
 
 const isPasseportValid = (obj) => {
   if (Object.keys(obj).length !== 7) return false;

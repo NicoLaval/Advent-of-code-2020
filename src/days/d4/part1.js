@@ -1,5 +1,5 @@
 import { input } from "./input";
-import { getPasseports } from "utils";
+import { getPasseports } from "./common";
 
 const D4P1 = (input) =>
   getPasseports(input).filter((p) => Object.keys(p).length === 7).length;

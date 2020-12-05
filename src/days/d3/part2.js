@@ -1,5 +1,5 @@
 import { input } from "./input";
-import { countTree } from "utils";
+import { countTree } from "./common";
 
 const D3P2 = (input) =>
   countTree({ right: 1 })(input) *

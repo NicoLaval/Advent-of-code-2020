@@ -1,8 +1,8 @@
 import { input } from "./input";
-import { toIntArray } from "utils";
+import { d1Extractor } from "./common";
 
 const D1P1 = (input) =>
-  toIntArray(input).reduce((acc, v, _, array) => {
+  d1Extractor(input).reduce((acc, v, _, array) => {
     if (acc) return acc;
     const k = array.find((a) => 2020 === v + a);
     return k ? v * k : acc;
