@@ -30,6 +30,10 @@ const App = () => {
         data={data}
         title="Advent of code 2020"
         icons={tableIcons}
+        options={{
+          paging: true,
+          pageSize: 10,
+        }}
       />
     </div>
   );
