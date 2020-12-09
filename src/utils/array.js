@@ -1,1 +1,2 @@
-export const sumArray = (array) => array.reduce((a, b) => a + b);
+export const sumArray = (array) =>
+  Array.isArray(array) && array.length > 0 ? array.reduce((a, b) => a + b) : 0;
