@@ -32,7 +32,7 @@ const App = () => {
         icons={tableIcons}
         options={{
           paging: true,
-          pageSize: 10,
+          pageSize: 20,
         }}
       />
     </div>
