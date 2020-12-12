@@ -9,3 +9,4 @@ export * from "./d8";
 export * from "./d9";
 export * from "./d10";
 export * from "./d11";
+export * from "./d12";
