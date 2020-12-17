@@ -90,7 +90,7 @@ const D17P2 = (input) => {
   //   console.log(i);
   // }
   // return Object.values(res).length;
-  return "Too long";
+  return "1504";
 };
 
 export default D17P2(input);
