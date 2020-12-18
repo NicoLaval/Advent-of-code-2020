@@ -15,3 +15,4 @@ export * from "./d13";
 export * from "./d15";
 export * from "./d16";
 export * from "./d17";
+export * from "./d18";
